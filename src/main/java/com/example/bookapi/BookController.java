@@ -11,11 +11,11 @@ import java.util.List;
 @RequestMapping("/api/books")
 public class BookController {
 
-    // Dependency Injection Option 1: Autoried annotation
+    // Dependency Injection Option 1: Autowired annotation
     //@Autowired
     //private BookService bookService;
 
-    //Dependency Injection Opetion 2: constructor inject (line 19 - line 23)
+    //Dependency Injection Option 2: constructor injection (line 19 - line 23)
     private final BookService bookService;
 
     public BookController(BookService bookService){
