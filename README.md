@@ -32,23 +32,42 @@ This is a simple Spring Boot REST API project for managing a collection of books
 
 ## Postman API Testing Screenshots
 ### POST - Create book
-* Add the first book
-![book1_add](postman-test-screenshots/post_book1.png)
-* Add the second book
-![book2_add](postman-test-screenshots/post_book2.png)
+* Add the first book  
+  <br>
+  <img src="postman-test-screenshots/post_book1.png" alt="book1_add" width="450"/>
+
+* Add the second book  
+  <br>
+  <img src="postman-test-screenshots/post_book2.png" alt="book2_add" width="450"/>
+
+---
 
 ### GET - Retrieve book
-* Get all books
-![all_books](postman-test-screenshots/get_all_books.png)
-* Get book by id
-![get_book_by_id](postman-test-screenshots/get_book_by_id.png)
+
+* Get all books  
+  <br>
+  <img src="postman-test-screenshots/get_all_books.png" alt="all_books" width="450"/>
+
+* Get book by id  
+  <br>
+  <img src="postman-test-screenshots/get_book_by_id.png" alt="get_book_by_id" width="450"/>
+
+---
 
 ### PUT - Update book
-* Update the first book
-![update_book1](postman-test-screenshots/put_book1.png)
-* View book 1 after updating
-![view_updated_book1](postman-test-screenshots/get_book1_after_put.png)
+
+* Update the first book  
+  <br>
+  <img src="postman-test-screenshots/put_book1.png" alt="update_book1" width="450"/>
+
+* View book 1 after updating  
+  <br>
+  <img src="postman-test-screenshots/get_book1_after_put.png" alt="view_updated_book1" width="450"/>
+
+---
 
 ### DELETE - Delete book
-* Delete book
-![delete_book](postman-test-screenshots/delete_book_1.png)
+
+* Delete book  
+  <br>
+  <img src="postman-test-screenshots/delete_book_1.png" alt="delete_book" width="450"/>
